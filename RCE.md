@@ -1,10 +1,24 @@
 
-Remote Code Execution
-=====================
+Remote Code Execution(RCE)
+==========================
+
+- [Burp Suite RCE](https://translate.google.com/translate?sl=auto&tl=en&u=http://noahblog.360.cn/burp-suite-rce/)	RCE, Browser bug
+
+- [RCE By Code Injection | Perl Reverse Shell](https://4bdoz.medium.com/rce-by-code-injection-perl-reverse-shell-a2e90181b10)	RCE, Code injection
+
+- [Your Vulnerability Is In Another OEM!](https://www.synacktiv.com/publications/your-vulnerability-is-in-another-oem.html)	Memory corruption bug, RCE
+
+- [Dropping root shell in a Crypto Exchange for Fun and Profitn’t](https://www.tnirmal.com.np/2021/08/dropping-root-shell-in-crypto-exchange.html)	RCE
+
+- [Pwn2Own Vancouver 2021 :: Microsoft Exchange Server Remote Code Execution](https://srcincite.io/blog/2021/08/25/pwn2own-vancouver-2021-microsoft-exchange-server-remote-code-execution.html)	RCE, MiTM
+
+- [“How Companies Need to Widen There Scopes”](https://medium.com/@amnotacat/how-companies-need-to-widen-there-scopes-75ba19ac50c7)	RCE, Components with known vulnerabilities
 
 - [Zoom RCE from Pwn2Own 2021](https://sector7.computest.nl/post/2021-08-zoom/)	RCE, Memory corruption bug
 
 - [How I got RCE In The World Largest Russian Company](https://infosecwriteups.com/how-i-got-rce-in-the-world-largest-russian-company-8e6e8288bc4e)	RCE
+
+- [From Pwn2Own 2021: A New Attack Surface On Microsoft Exchange - Proxyshell!](https://www.zerodayinitiative.com/blog/2021/8/17/from-pwn2own-2021-a-new-attack-surface-on-microsoft-exchange-proxyshell)	RCE, Privilege escalation
 
 - [CVE-2021-25738](https://j0vsec.com/post/cve-2021-25738/)	RCE
 
@@ -68,6 +82,8 @@ Remote Code Execution
 
 - [RCE on Starbucks Singapore and more for $5600](http://www.kamilonurozkaleli.com/posts/rce-on-starbucks-singapore-and-more/)	RCE, Unrestricted file upload
 
+- [Code execution as root via AT commands on the Quectel EG25-G modem](https://nns.ee/blog/2021/04/03/modem-rce.html)	OS command injection, RCE
+
 - [Zero click vulnerability in Apple’s macOS Mail](https://mikko-kenttala.medium.com/zero-click-vulnerability-in-apples-macos-mail-59e0c14b106c)	Account takeover, Information disclosure, RCE
 
 - [TikTok for Android 1-Click RCE](https://medium.com/@dPhoeniixx/tiktok-for-android-1-click-rce-240266e78105)	RCE, XSS, Insecure intents
@@ -79,6 +95,10 @@ Remote Code Execution
 - [RCE On A Laravel Private Program](https://zdresearch.com/rce-on-a-laravel-private-program/)	RCE
 
 - [Build Pipeline Security](https://sprocketfox.io/xssfox/2021/02/18/pipeline/)	RCE
+
+- [Dropping a shell in Google’s Cloud SQL (the speckle-umbrella story)](https://irsl.medium.com/dropping-a-shell-in-googles-cloud-sql-the-speckle-umbrella-story-f9375bd4960d)	Configuration file injection, RCE
+
+- [Dropping a shell in Google’s Cloud SQL (the speckle-umbrella story)](https://irsl.medium.com/dropping-a-shell-in-googles-cloud-sql-the-speckle-umbrella-story-f9375bd4960d)	RCE
 
 - [Escalating SSRF to RCE](https://sanderwind.medium.com/escalating-ssrf-to-rce-7c0147371c40)	SSRF, RCE
 
@@ -240,7 +260,7 @@ Remote Code Execution
 
 - [ From Multiple IDORs leading to Code Execution on a different Host Container](https://www.rahulr.in/2019/10/idor-to-rce.html?m=1)	IDOR, RCE
 
-- [How a double-free bug in WhatsApp turns to RCE](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/)	Memory corruption bug, RCE, Android bug
+- [How a double-free bug in WhatsApp turns to RCE](https://awakened1712.github.io/hacking/hacking-whatsapp-gif-rce/)	Memory corruption bug, RCE, Android bug(s)
 
 - [How to get RCE on AEM instance without Java knowledge](https://medium.com/@byq/how-to-get-rce-on-aem-instance-without-java-knowledge-a995ceab0a83)	RCE
 

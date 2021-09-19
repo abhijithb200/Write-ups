@@ -2,11 +2,33 @@
 Cross Site Scripting (XSS)
 ==========================
 
+- [Account Takeover via XSS in e-signature feature worth 2500$](https://medium.com/@gguzelkokar.mdbf15/xss-via-account-takeover-in-e-signature-feature-worth-2500-435f3f8325bf)	XSS, Account takeover
+
+- [Bug Bounty Guest Post: Local File Read via Stored XSS in The Opera Browser](https://blogs.opera.com/security/2021/09/bug-bounty-guest-post-local-file-read-via-stored-xss-in-the-opera-browser/)	Stored XSS, Local File Read
+
+- [5 Different Vulnerabilities in Google’s Threadit](https://websecblog.com/vulns/google-threadit/)	DOM XSS, Clickjacking, Privilege escalation, Information disclosure
+
+- [SSRF in PDF export with PhantomJs](https://xhzeem.me/posts/SSRF-in-PDF-export-with-PhantomJs/read/)	SSRF, XSS, LFI
+
+- [SQL injection in harvard subdomain](https://noob3xploiter.medium.com/sql-injection-in-harvard-subdomain-be67a5dbf664)	XSS, SQL injection
+
+- [chaining bugs from self XSS to account takeover](https://medium.com/@behnam.yazdanpanah/chaining-bugs-from-self-xss-to-account-takeover-82d572136bdf)	Self XSS, WAF bypass, CSRF, Account takeover
+
+- [How I Found Multiple XSS in Hidden Legacy Pages](https://marxchryz.medium.com/how-i-found-multiple-xss-in-hidden-legacy-pages-a57a25d8ff1f)	XSS
+
+- [Hunting for XSS with CodeQL](https://medium.com/codex/hunting-for-xss-with-codeql-57f70763b938)	XSS
+
+- [Cache Poisoning via SelfXSS + Path Parameter](https://0u.ma/5)	XSS, Web cache poisoning
+
+- [Reflective XSS via search box [Bypassing Cloudflare WAF].](https://medium.com/@friendly_/reflective-xss-via-search-box-bypassing-cloudflare-waf-841ed420b7f)	Reflected XSS
+
 - [Story Of Unexpected Bugs](https://medium.com/@nehpatel/story-of-unexpected-bugs-75734d51ac57)	IDOR, XSS
 
-- [chaining bugs from self XSS to account takeover](https://medium.com/@behnam.yazdanpanah/chaining-bugs-from-self-xss-to-account-takeover-b492ed38a9de)	Self XSS, WAF bypass, CSRF, Account takeover
+- [MonkeyType.com Stored Cross-Site Scripting](https://obsrva.org/2021/08/22/monkeytype-disclosure.html)	Stored XSS, Authentication bypass, IDOR
 
 - [How to Hack Apple ID](https://zemnmez.medium.com/how-to-hack-apple-id-f3cc9b483a41)	XSS, Account takeover
+
+- [Why u should use burp to test Path Traversal Vulnerability and also get RXSS](https://infosecwriteups.com/why-u-should-use-burp-to-test-path-traversal-vulnerability-and-also-get-rxss-2743cbb16a3c)	Path traversal, XSS, CSRF, Account takeover
 
 - [OVE-20210809-0001 Visual Studio Code .ipynb Jupyter Notebook XSS (Arbitrary File Read)](https://github.com/justinsteven/advisories/blob/master/2021_vscode_ipynb_xss_arbitrary_file_read.md)	XSS
 
@@ -327,6 +349,8 @@ Cross Site Scripting (XSS)
 - [Story of stealing mail conversation, contacts in mail.ru and myMail iOS applications via XSS](https://medium.com/kminthein/story-of-stealing-mail-conversation-contacts-in-mail-ru-and-mymail-ios-applications-via-xss-1e49c4ed560)	Stored XSS
 
 - [How I hacked a bank their application using it for hacking another bank company — 10K XSS](https://medium.com/@hgreal/how-i-hacked-a-bank-their-application-using-it-for-hacking-another-bank-company-10-k-xss-b9cc801a675)	XSS
+
+- [An attempt to escalate a low-impact hidden input XSS](https://officialaimm.medium.com/an-attempt-to-escalate-a-low-impact-hidden-input-xss-9f4b9c88f19c)	XSS
 
 - [Simple story of some complicated XSS on Facebook](https://medium.com/@win3zz/simple-story-of-some-complicated-xss-on-facebook-8a9c0d80969d)	Reflected XSS
 
@@ -1113,8 +1137,6 @@ Cross Site Scripting (XSS)
 - [From RSS to XXE: feed parsing on Hootsuite](https://ysx.me.uk/from-rss-to-xxe-feed-parsing-on-hootsuite/)	XSS, XXE
 
 - [Lightweight markup: a trio of persistent XSS in GitLab](https://ysx.me.uk/lightweight-markup-a-trio-of-persistent-xss-in-gitlab/)	Stored XSS
-
-- [Bypassing Ebay XSS Protection to launch XSS by Nirmal Dahal](https://whitehatnepal.tumblr.com/post/153333332112/xssonebay)	Reflective XSS
 
 - [Svg XSS in Unifi v5.0.2](https://guptashubham.com/svg-xss-in-unifi-v5-0-2/)	Stored XSS
 

@@ -5,7 +5,7 @@ from mdutils import Html
 
 url = "https://pentester.land/list-of-bug-bounty-writeups.html#bug-bounty-writeups-published-in-2021"
 
-mdFile = MdUtils(file_name='XSS', title='Cross Site Scripting (XSS)')
+mdFile = MdUtils(file_name='Subdomain takeover', title='Subdomain takeover')
 
 
 r = requests.get(url)
@@ -32,7 +32,7 @@ while i<len(soup.find_all('tr')):
     category = soup.find_all('tr')[i].text.split('\n')[4]
     
     items = []
-    if "XSS" in category:
+    if "Subdomain takeover" in category:
         link = soup.find_all('tr')[i].a['href']
         all_list = soup.find_all('tr')[i].text.split('\n')
         heading = soup.find_all('tr')[i].text.split('\n')[1]
