@@ -11,7 +11,7 @@ mdFile = MdUtils(file_name='Subdomain takeover', title='Subdomain takeover')
 r = requests.get(url)
 soup = BeautifulSoup(r.content, 'html.parser')
 flag=0
-
+# ok ifn
 catlist=[]
 # i=3
 # while i<=len(soup.find_all('td')):
